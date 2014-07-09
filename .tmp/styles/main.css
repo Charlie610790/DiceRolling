@@ -1,0 +1,118 @@
+/* line 1, ../../app/styles/main.scss */
+
+body {
+  background-color: #B6B6B4;
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* line 9, ../../app/styles/main.scss */
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 14, ../../app/styles/main.scss */
+
+.dice-container {
+  min-height: 500px;
+  width: 960px;
+  margin: 0 auto;
+  background: url("https://cloud.githubusercontent.com/assets/7440065/3524864/a079eb18-076d-11e4-85a2-f7913cdef4d6.jpg") no-repeat;
+  background-size: cover;
+  padding: 2px;
+  border: solid 1px #726E6D;
+}
+
+/* line 25, ../../app/styles/main.scss */
+
+.box1 {
+  float: center;
+  display: inline-block;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 15px;
+  border: 2px solid #333029;
+  color: #34282C;
+  font-size: 100px;
+  line-height: 150px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+/* line 52, ../../app/styles/main.scss */
+
+input[type=number] {
+  background-color: white;
+  padding: 2px;
+  margin: 4px;
+  border: solid 1px #726E6D;
+}
+
+/* line 60, ../../app/styles/main.scss */
+
+input[type=submit] {
+  box-shadow: inset 0px 39px 0px -50px #726E6D;
+  background-color: #E5E4E2;
+  border-radius: 3px;
+  border: solid 1px #726E6D;
+  display: inline-block;
+  color: #34282C;
+  font-family: Arial, Sans-Serif;
+  line-height: 12px;
+  height: 27px;
+  margin-top: 9px;
+  text-decoration: none;
+}
+
+/* line 77, ../../app/styles/main.scss */
+
+input[type=submit]:hover {
+  background-color: #D1D0CE;
+}
+
+/* line 78, ../../app/styles/main.scss */
+
+input[type=submit]:focus {
+  outline: none;
+}
+
+/* line 79, ../../app/styles/main.scss */
+
+input[type=submit]:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 86, ../../app/styles/main.scss */
+
+.input-fields div {
+  vertical-align: top;
+  display: inline-block;
+  margin: 10px 12px 0 0;
+}
+
+/* line 91, ../../app/styles/main.scss */
+
+.input-fields div p {
+  margin: 0;
+}
+
+/* line 93, ../../app/styles/main.scss */
+
+.input-fields div.roll-dice,
+.input-fields div.reset {
+  margin-top: 18px;
+}
+
+/* line 98, ../../app/styles/main.scss */
+
+.what-you-can-enter {
+  margin-top: 10px;
+}
