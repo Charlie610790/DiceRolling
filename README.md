@@ -6,6 +6,8 @@ REPO NAME: awesome-dice<br>
 
 ===============================================================================
 
+This is a clone of the original group project located : https://github.com/wweliz/awesome-dice/
+
 Using contructors to create a dice rolling game letting the user select the number of dice they want to roll as well as the number of sides each dice will have.  The app will then return the dice on the table with the random results simulating dice rolling at a casino table.  
 
 Below is a link to the live page:<BR>
